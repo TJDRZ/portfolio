@@ -21,6 +21,9 @@ function Home() {
           <img className="social-img" src={linkedIn} alt="LinkedIn"></img>
         </a>
       </div>
+      <div className="contact">
+        <a className="contact-link" href="mailto:tjdrzewiecki@gmail.com">Contact Me</a>
+      </div>
     </main>
   );
 }
