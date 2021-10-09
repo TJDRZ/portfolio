@@ -9,10 +9,22 @@ function Nav() {
     <nav className={`Nav ${location.pathname === '/portfolio' ? "blue-shadow" : "red-shadow"}`}>
       <ul>
         <li>
-          <NavLink to="/portfolio">Home</NavLink>
+          <NavLink
+            to="/portfolio"
+            activeStyle={{
+              fontWeight: "bold",
+              backgroundColor: "green"
+            }}
+            >Home</NavLink>
         </li>
         <li>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink
+            to="/projects"
+            activeStyle={{
+              fontWeight: "bold",
+              backgroundColor: "green"
+            }}
+          >Projects</NavLink>
         </li>
       </ul>
     </nav>
