@@ -1,46 +1,43 @@
 .Project {
-    flex: 1 1 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
-    height: fit-content;
-    padding: 1rem;
-    border: outset #7393B3 5px;
-    border-radius: 0.4rem;
-    box-shadow: 4px 2px 8px 1px rgba(200, 200, 200, 0.75);
+  flex: 1 1 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  height: fit-content;
+  padding: 1rem;
+  border: outset #7393b3 5px;
+  border-radius: 0.4rem;
+  box-shadow: 4px 2px 8px 1px rgba(200, 200, 200, 0.75);
 }
 
 .Project:hover {
-    border: inset #6495ED 5px;
-    box-shadow: none;
-}
-
-.screenshot-container {
-    
+  border: inset #6495ed 5px;
+  box-shadow: none;
 }
 
 .screenshot {
-    width: 100%;
-    border: outset #000 1px;
+  width: 100%;
+  border: outset #000 1px;
 }
 
 .link-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
 .project-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .logo-link {
-    width: 4rem;
-    height: 4rem;
+  width: 4rem;
+  height: 4rem;
 }

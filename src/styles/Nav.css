@@ -1,4 +1,9 @@
+.Nav > ul {
+  display: flex;
+  gap: 1rem;
+}
+
 a {
-    color: white;
-    margin: 1rem;
+  margin: 1rem;
+  color: inherit;
 }

@@ -23,7 +23,11 @@ function Project(props) {
           </li>
           <li>
             <a className="project-link" href={live}>
-              <img className="logo-link" src={liveLogo} alt="Live Preview"></img>
+              <img
+                className="logo-link"
+                src={liveLogo}
+                alt="Live Preview"
+              ></img>
               Live Preview
             </a>
           </li>

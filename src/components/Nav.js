@@ -2,29 +2,37 @@ import { NavLink, useLocation } from "react-router-dom";
 import "../styles/Nav.css";
 
 function Nav() {
-  const location = useLocation()
+  const location = useLocation();
   console.log(location);
 
   return (
-    <nav className={`Nav ${location.pathname === '/portfolio' ? "blue-shadow" : "red-shadow"}`}>
+    <nav
+      className={`Nav ${
+        location.pathname === "/portfolio" ? "home-nav" : "project-nav"
+      }`}
+    >
       <ul>
         <li>
           <NavLink
             to="/portfolio"
             activeStyle={{
               fontWeight: "bold",
-              backgroundColor: "green"
+              backgroundColor: "rgba(204, 204, 204, 0.5)",
             }}
-            >Home</NavLink>
+          >
+            Home
+          </NavLink>
         </li>
         <li>
           <NavLink
             to="/projects"
             activeStyle={{
-              fontWeight: "bold",
-              backgroundColor: "green"
+              fontWeight: "500",
+              backgroundColor: "rgba(204, 204, 204, 1)",
             }}
-          >Projects</NavLink>
+          >
+            Projects
+          </NavLink>
         </li>
       </ul>
     </nav>
