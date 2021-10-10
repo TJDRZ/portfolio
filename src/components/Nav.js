@@ -7,7 +7,7 @@ function Nav() {
   return (
     <nav
       className={`Nav ${
-        location.pathname === "/" ? "home-nav" : "project-nav"
+        location.pathname === "/portfolio" ? "home-nav" : "project-nav"
       }`}
     >
       <ul>
