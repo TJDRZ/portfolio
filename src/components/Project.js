@@ -1,3 +1,4 @@
+import { Link } from  "react-router-dom";
 import "../styles/Project.css";
 import githubLogo from "../assets/github.svg";
 import liveLogo from "../assets/play.svg";
@@ -5,6 +6,7 @@ import detailsLogo from "../assets/block-menu.svg";
 
 function Project(props) {
   const { title, img, github, live, details } = props;
+
   return (
     <article className="Project">
       <header>
@@ -32,10 +34,13 @@ function Project(props) {
             </a>
           </li>
           <li>
-            <a className="project-link" href={details}>
+            <Link className="project-link" to={{
+              pathname: "/details",
+              state: details
+            }}>
               <img className="logo-link" src={detailsLogo} alt="Details"></img>
               Details
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

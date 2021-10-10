@@ -1,6 +1,7 @@
 import "../styles/Projects.css";
 import Nav from "./Nav";
 import Project from "./Project";
+import projectsJSON from "../projects.json";
 import weatherApp from "../assets/weather-app.png";
 import memoryCard from "../assets/memory-card-game.png";
 import htmlForms from "../assets/html-forms.png";
@@ -17,46 +18,46 @@ function Projects() {
       </header>
       <section className="project-container">
         <Project
-          title="Weather App"
+          title={projectsJSON.weatherApp.title}
           img={weatherApp}
-          github="https://github.com/TJDRZ/weather-app"
-          live="https://tjdrz.github.io/weather-app/"
-          details=""
+          github={projectsJSON.weatherApp.github}
+          live={projectsJSON.weatherApp.live}
+          details={projectsJSON.weatherApp.details}
         />
         <Project
-          title="Memory Card Game"
+          title={projectsJSON.memoryCard.title}
           img={memoryCard}
-          github="https://github.com/TJDRZ/memory-card-game"
-          live="https://tjdrz.github.io/memory-card-game/"
-          details=""
+          github={projectsJSON.memoryCard.github}
+          live={projectsJSON.memoryCard.live}
+          details={projectsJSON.memoryCard.details}
         />
         <Project
-          title="HTML Forms"
+          title={projectsJSON.htmlForms.title}
           img={htmlForms}
-          github="https://github.com/TJDRZ/html-forms"
-          live="https://tjdrz.github.io/html-forms/"
-          details=""
+          github={projectsJSON.htmlForms.github}
+          live={projectsJSON.htmlForms.live}
+          details={projectsJSON.htmlForms.details}
         />
         <Project
-          title="Shopping Cart"
+          title={projectsJSON.shoppingCart.title}
           img={shoppingCart}
-          github="https://github.com/TJDRZ/shopping-cart"
-          live="https://tjdrz.github.io/shopping-cart/"
-          details=""
+          github={projectsJSON.shoppingCart.github}
+          live={projectsJSON.shoppingCart.live}
+          details={projectsJSON.shoppingCart.details}
         />
         <Project
-          title="To-Do List"
+          title={projectsJSON.todoList.title}
           img={todoList}
-          github="https://github.com/TJDRZ/todo-list"
-          live="https://tjdrz.github.io/todo-list/"
-          details=""
+          github={projectsJSON.todoList.github}
+          live={projectsJSON.todoList.live}
+          details={projectsJSON.todoList.details}
         />
         <Project
-          title="CV Application"
+          title={projectsJSON.cvApplication.title}
           img={cvApplication}
-          github="https://github.com/TJDRZ/cv-application"
-          live="https://tjdrz.github.io/cv-application/"
-          details=""
+          github={projectsJSON.cvApplication.github}
+          live={projectsJSON.cvApplication.live}
+          details={projectsJSON.cvApplication.details}
         />
       </section>
     </main>

@@ -3,7 +3,6 @@ import "../styles/Nav.css";
 
 function Nav() {
   const location = useLocation();
-  console.log(location);
 
   return (
     <nav
