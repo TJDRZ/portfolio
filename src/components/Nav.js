@@ -13,7 +13,7 @@ function Nav() {
       <ul>
         <li>
           <NavLink
-            to="/"
+            exact to="/"
             activeStyle={{
               fontWeight: "bold",
               backgroundColor: "rgba(204, 204, 204, 0.5)",
@@ -24,7 +24,7 @@ function Nav() {
         </li>
         <li>
           <NavLink
-            to="/projects"
+            exact to="/projects"
             activeStyle={{
               fontWeight: "500",
               backgroundColor: "rgba(204, 204, 204, 1)",
