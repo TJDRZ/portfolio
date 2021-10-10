@@ -19,8 +19,10 @@ function Details() {
           <p>{tools}</p>
         </div>
       </header>
-      <img src={img} alt="hi" />
       <section className="details-container">
+        <div className="details-img-container">
+          <img className="details-img" src={img} alt="hi" />
+        </div>
         <article className="description">
           <h2 className="details-h2">Main Objectives:</h2>
           <ul>

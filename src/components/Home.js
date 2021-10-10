@@ -22,7 +22,9 @@ function Home() {
         </a>
       </div>
       <div className="contact">
-        <a className="contact-link" href="mailto:tjdrzewiecki@gmail.com">Contact Me</a>
+        <a className="contact-link" href="mailto:tjdrzewiecki@gmail.com">
+          Contact Me
+        </a>
       </div>
     </main>
   );
