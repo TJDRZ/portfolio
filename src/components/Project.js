@@ -1,4 +1,4 @@
-import { Link } from  "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/Project.css";
 import githubLogo from "../assets/github.svg";
 import liveLogo from "../assets/play.svg";
@@ -34,10 +34,16 @@ function Project(props) {
             </a>
           </li>
           <li>
-            <Link className="project-link" to={{
-              pathname: "/details",
-              state: details
-            }}>
+            <Link
+              className="project-link"
+              to={{
+                pathname: "/details",
+                state: {
+                  details: details,
+                  img: img,
+                },
+              }}
+            >
               <img className="logo-link" src={detailsLogo} alt="Details"></img>
               Details
             </Link>

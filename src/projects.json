@@ -12,7 +12,11 @@
                 "-Keep API and contructor code out of DOM manipulation and vice versa",
                 "-Make use of Webpack with standard entry/output and loaders in a config"
             ],
-            "usage": []
+            "usage": [
+                "-Type in city of choice; State and Country input fields are optional; click submit",
+                "-Displays city name, current weather status with correlating picture, low/current/high temps, humidity, wind speed and direction",
+                "-Radio buttons to change display between Fahrenheit and Celsius"
+            ]
         }
     },
     "memoryCard": {
