@@ -13,7 +13,7 @@ function Nav() {
       <ul>
         <li>
           <NavLink
-            to="/"
+            to="/portfolio"
             activeStyle={{
               fontWeight: "bold",
               backgroundColor: "rgba(204, 204, 204, 0.5)",
