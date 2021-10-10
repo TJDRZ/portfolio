@@ -7,13 +7,13 @@ function Nav() {
   return (
     <nav
       className={`Nav ${
-        location.pathname === "/portfolio" ? "home-nav" : "project-nav"
+        location.pathname === "/" ? "home-nav" : "project-nav"
       }`}
     >
       <ul>
         <li>
           <NavLink
-            to="/portfolio"
+            to="/"
             activeStyle={{
               fontWeight: "bold",
               backgroundColor: "rgba(204, 204, 204, 0.5)",
