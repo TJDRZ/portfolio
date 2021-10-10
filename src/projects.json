@@ -1,77 +1,145 @@
 {
-    "weatherApp": {
-        "title": "Weather App",
-        "github": "https://github.com/TJDRZ/weather-app",
-        "live": "https://tjdrz.github.io/weather-app/",
-        "details": {
-            "title": "Weather App",
-            "tools": "HTML, CSS, JS, Webpack",
-            "description": [
-                "-Fetch and use an API in an async function, while using a try/catch",
-                "-Create a new object, filled in with the data needed from the API",
-                "-Keep API and contructor code out of DOM manipulation and vice versa",
-                "-Make use of Webpack with standard entry/output and loaders in a config"
-            ],
-            "usage": [
-                "-Type in city of choice; State and Country input fields are optional; click submit",
-                "-Displays city name, current weather status with correlating picture, low/current/high temps, humidity, wind speed and direction",
-                "-Radio buttons to change display between Fahrenheit and Celsius"
-            ]
-        }
-    },
-    "memoryCard": {
-        "title": "Memory Card Game",
-        "github": "https://github.com/TJDRZ/memory-card-game",
-        "live": "https://tjdrz.github.io/memory-card-game/",
-        "details": {
-            "title": "Memory Card Game",
-            "tools": "",
-            "description": [],
-            "usage": []
-        }
-    },
-    "htmlForms": {
-        "title": "HTML Forms",
-        "github": "https://github.com/TJDRZ/html-forms",
-        "live": "https://tjdrz.github.io/html-forms/",
-        "details": {
-            "title": "HTML Forms",
-            "tools": "",
-            "description": [],
-            "usage": []
-        }
-    },
-    "shoppingCart": {
-        "title": "Shopping Cart",
-        "github": "https://github.com/TJDRZ/shopping-cart",
-        "live": "https://tjdrz.github.io/shopping-cart/",
-        "details": {
-            "title": "Shopping Cart",
-            "tools": "",
-            "description": [],
-            "usage": []
-        }
-    },
-    "todoList": {
-        "title": "To-Do List",
-        "github": "https://github.com/TJDRZ/todo-list",
-        "live": "https://tjdrz.github.io/todo-list/",
-        "details": {
-            "title": "To-Do List",
-            "tools": "",
-            "description": [],
-            "usage": []
-        }
-    },
-    "cvApplication": {
-        "title": "CV Application",
-        "github": "https://github.com/TJDRZ/cv-application",
-        "live": "https://tjdrz.github.io/cv-application/",
-        "details": {
-            "title": "CV Application",
-            "tools": "",
-            "description": [],
-            "usage": []
-        }
+  "weatherApp": {
+    "title": "Weather App",
+    "github": "https://github.com/TJDRZ/weather-app",
+    "live": "https://tjdrz.github.io/weather-app/",
+    "details": {
+      "title": "Weather App",
+      "tools": "HTML, CSS, JS, Webpack",
+      "description": [
+        "-Fetched and used an API in an async function, while using a try/catch",
+        "-Kept API and contructor code out of DOM manipulation and vice versa in a MVC fashion",
+        "-Made use of Webpack with standard entry/output and loaders in a config"
+      ],
+      "usage": [
+        "-Type in city of choice; State and Country input fields are optional; click submit",
+        "-Displays city name, current weather status with correlating picture, low/current/high temps, humidity, wind speed and direction",
+        "-Radio buttons to change display between Fahrenheit and Celsius"
+      ]
     }
+  },
+  "memoryCard": {
+    "title": "Memory Card Game",
+    "github": "https://github.com/TJDRZ/memory-card-game",
+    "live": "https://tjdrz.github.io/memory-card-game/",
+    "details": {
+      "title": "Memory Card Game",
+      "tools": "HTML, CSS, JS, ReactJS",
+      "description": [
+        "-Created project using create-react-app",
+        "-High focus on reuseable components"
+      ],
+      "usage": [
+        "-Click on the cards to increase the current score",
+        "-Clicking on the same card in the same game will reset the current score",
+        "-Highest score is set as the highest game total, 16 is max",
+        "-Special cards shown for win/loss"
+      ]
+    }
+  },
+  "htmlForms": {
+    "title": "HTML Forms",
+    "github": "https://github.com/TJDRZ/html-forms",
+    "live": "https://tjdrz.github.io/html-forms/",
+    "details": {
+      "title": "HTML Forms",
+      "tools": "HTML, CSS, JS",
+      "description": [
+        "-Semantic HTML",
+        "-Overall closeness to look and feel of original form (layout, dynamic dropdown, etc)",
+        "-JavaScript custom form validation",
+        "-RegEx validation",
+        "-GET form method to send form data to another .html"
+      ],
+      "usage": [
+        "-Input fields as named (custom validity if forms are filled, but not to standard",
+        "-Clicking in password input will expand the confirm password area",
+        "-Password rules turn green on true validity",
+        "-Submit form redirects to new page displaying form input data"
+      ]
+    }
+  },
+  "shoppingCart": {
+    "title": "Shopping Cart",
+    "github": "https://github.com/TJDRZ/shopping-cart",
+    "live": "https://tjdrz.github.io/shopping-cart/",
+    "details": {
+      "title": "Shopping Cart",
+      "tools": "HTML, CSS, JS, ReactJS, React Router",
+      "description": [
+        "-Created project using create-react-app",
+        "-High focus on reuseable components",
+        "-Use of React hooks"
+      ],
+      "usage": [
+        "-Nav links above to toggle between home and shop pages",
+        "-Add / subtract quantities of items",
+        "-Checkout button to reset total"
+      ]
+    }
+  },
+  "todoList": {
+    "title": "To-Do List",
+    "github": "https://github.com/TJDRZ/todo-list",
+    "live": "https://tjdrz.github.io/todo-list/",
+    "details": {
+      "title": "To-Do List",
+      "tools": "HTML, CSS, JS, Webpack",
+      "description": [
+        "-Seperate modules to create a MVC type program with OOP principals",
+        "-Use of Webpack, Prettier, and ESLint configs"
+      ],
+      "usage": [
+        "Projects:",
+        "-Create projects in the left list",
+        "-Click on the project title to look at the todos of project / set project as current project for todo creation",
+        "-DEL button to delete adjacent project",
+        "Todos:",
+        "-Todos created will appear right inside of the currently selected project",
+        "-X button to delete",
+        "-Click title to strike-through title / mark as completed",
+        "-High / Low priority button to toggle todo priority",
+        "-Description button for description alert"
+      ]
+    }
+  },
+  "cvApplication": {
+    "title": "CV Application",
+    "github": "https://github.com/TJDRZ/cv-application",
+    "live": "https://tjdrz.github.io/cv-application/",
+    "details": {
+      "title": "CV Application",
+      "tools": "HTML, CSS, JS, ReactJS",
+      "description": [
+        "-Created project using create-react-app",
+        "-High focus on reuseable components",
+        "-Branches of both React functional component and React class component examples"
+      ],
+      "usage": [
+        "The Input component can take the following props:",
+        "-Type=''",
+        "--This will affect labeling",
+        "~",
+        "-Placeholder=''",
+        "--This will affect the text input's placeholder",
+        "~",
+        "-Pattern=''",
+        "--This will affect the form validation, such as an email pattern",
+        "~~~~",
+        "The Container component is used to create a container with an Add additional list items button and maps through them to create an unordered list:",
+        "The Containter component can take the following props:",
+        "-Header=''",
+        "--This will create a header (h3) to define the list",
+        "~",
+        "-Type=''",
+        "--This will affect the text of 'what' is being added on the Add button",
+        "~",
+        "-Title=''",
+        "--Takes a boolean value to determine if the centering/margin/font weight of the text/horizontal (True if you want the container header on the left as a grand header; False if you want the container header in the middle as a sub header)",
+        "~~~~",
+        "Rest of UI components (Header, School, Work) up for use/deletion if used as a template for things other than CV-Application",
+        "save.js created to hide all buttons and the h1 on page and window.print() to allow pdf saving of CV to computer"
+      ]
+    }
+  }
 }
