@@ -5,7 +5,7 @@
     "live": "https://tjdrz.github.io/weather-app/",
     "details": {
       "title": "Weather App",
-      "tools": "HTML, CSS, JS, Webpack",
+      "tools": "HTML, CSS, JS, Webpack, Sass/SCSS",
       "description": [
         "-Fetched and used an API in an async function, while using a try/catch",
         "-Kept API and contructor code out of DOM manipulation and vice versa in a MVC fashion",
