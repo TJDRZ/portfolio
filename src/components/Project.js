@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import "../styles/Project.css";
+import { Link } from "react-router-dom";
 import githubLogo from "../assets/github.svg";
 import liveLogo from "../assets/play.svg";
 import detailsLogo from "../assets/block-menu.svg";
@@ -18,13 +18,23 @@ function Project(props) {
       <nav>
         <ul className="link-list">
           <li>
-            <a className="project-link" target="_blank" rel='noreferrer noopener' href={github}>
+            <a
+              className="project-link"
+              target="_blank"
+              rel="noreferrer noopener"
+              href={github}
+            >
               <img className="logo-link" src={githubLogo} alt="Github"></img>
               Github Repo
             </a>
           </li>
           <li>
-            <a className="project-link" target="_blank" rel='noreferrer noopener' href={live}>
+            <a
+              className="project-link"
+              target="_blank"
+              rel="noreferrer noopener"
+              href={live}
+            >
               <img
                 className="logo-link"
                 src={liveLogo}
@@ -36,13 +46,8 @@ function Project(props) {
           <li>
             <Link
               className="project-link"
-              to={{
-                pathname: "/details",
-                state: {
-                  details: details,
-                  img: img,
-                },
-              }}
+              to="/details"
+              state={{ details: details, image: img }}
             >
               <img className="logo-link" src={detailsLogo} alt="Details"></img>
               Details

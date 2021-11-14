@@ -20,11 +20,16 @@
   padding: 3rem;
   line-height: 5.5rem;
   text-align: center;
-  transition: transform 1s;
+  animation: zoop ease-in-out 3s;
 }
 
-.home-header:hover {
-  transform: rotateX(360deg);
+@keyframes zoop {
+  from {
+    color: #888;
+  }
+  to {
+    color: #fff;
+  }
 }
 
 .home-h1 {
@@ -39,7 +44,7 @@
 }
 
 .home-nav {
-  color: white;
+  color: #fff;
   text-shadow: none;
 }
 

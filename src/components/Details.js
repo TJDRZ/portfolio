@@ -1,11 +1,16 @@
+import "../styles/Details.css";
+import { useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import uniqid from "uniqid";
-import "../styles/Details.css";
 
 function Details() {
   const location = useLocation();
   const { title, tools, description, usage } = location.state.details;
-  const { img } = location.state;
+  const { image } = location.state;
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <main className="Details">
@@ -21,7 +26,7 @@ function Details() {
       </header>
       <section className="details-container">
         <div className="details-img-container">
-          <img className="details-img" src={img} alt="hi" />
+          <img className="details-img" src={image} alt="hi" />
         </div>
         <article className="description">
           <h2 className="details-h2">Main Objectives:</h2>

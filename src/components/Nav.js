@@ -1,8 +1,18 @@
-import { NavLink, useLocation } from "react-router-dom";
 import "../styles/Nav.css";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Nav() {
   const location = useLocation();
+
+  let homeStyle = {
+    fontWeight: "bold",
+    backgroundColor: "rgba(204, 204, 204, 0.5)",
+  };
+
+  let projectStyle = {
+    fontWeight: "500",
+    backgroundColor: "rgba(204, 204, 204, 1)",
+  };
 
   return (
     <nav
@@ -13,22 +23,16 @@ function Nav() {
       <ul>
         <li>
           <NavLink
-            exact to="/"
-            activeStyle={{
-              fontWeight: "bold",
-              backgroundColor: "rgba(204, 204, 204, 0.5)",
-            }}
+            to="/"
+            style={({ isActive }) => (isActive ? homeStyle : undefined)}
           >
             Home
           </NavLink>
         </li>
         <li>
           <NavLink
-            exact to="/projects"
-            activeStyle={{
-              fontWeight: "500",
-              backgroundColor: "rgba(204, 204, 204, 1)",
-            }}
+            to="/projects"
+            style={({ isActive }) => (isActive ? projectStyle : undefined)}
           >
             Projects
           </NavLink>
