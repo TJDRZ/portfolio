@@ -5,8 +5,8 @@ import uniqid from "uniqid";
 function Details() {
   const location = useLocation();
   const { title, tools, description, usage } = location.state.details;
-  const { img } = location.state;
-
+  const { image } = location.state;
+  console.log(location);
   return (
     <main className="Details">
       <header className="details-header">
@@ -21,7 +21,7 @@ function Details() {
       </header>
       <section className="details-container">
         <div className="details-img-container">
-          <img className="details-img" src={img} alt="hi" />
+          <img className="details-img" src={image} alt="hi" />
         </div>
         <article className="description">
           <h2 className="details-h2">Main Objectives:</h2>

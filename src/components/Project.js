@@ -46,13 +46,8 @@ function Project(props) {
           <li>
             <Link
               className="project-link"
-              to={{
-                pathname: "/details",
-                state: {
-                  details: details,
-                  img: img,
-                },
-              }}
+              to="/details"
+              state={{ details: details, image: img }}
             >
               <img className="logo-link" src={detailsLogo} alt="Details"></img>
               Details
