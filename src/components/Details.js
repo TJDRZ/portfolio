@@ -1,6 +1,6 @@
+import "../styles/Details.css";
 import { NavLink, useLocation } from "react-router-dom";
 import uniqid from "uniqid";
-import "../styles/Details.css";
 
 function Details() {
   const location = useLocation();
