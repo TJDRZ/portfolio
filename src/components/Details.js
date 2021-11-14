@@ -1,4 +1,5 @@
 import "../styles/Details.css";
+import { useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import uniqid from "uniqid";
 
@@ -6,7 +7,11 @@ function Details() {
   const location = useLocation();
   const { title, tools, description, usage } = location.state.details;
   const { image } = location.state;
-  console.log(location);
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main className="Details">
       <header className="details-header">
