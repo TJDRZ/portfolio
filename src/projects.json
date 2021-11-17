@@ -1,4 +1,27 @@
 {
+  "toneToken": {
+    "title": "Tone Token",
+    "github": "https://github.com/TJDRZ/tone-token",
+    "live": "https://tjdrz.github.io/tone-token/",
+    "details": {
+      "title": "Tone Token",
+      "tools": "HTML, CSS, JS, ReactJS, React Router (v6), React Dial Knob",
+      "description": [
+        "-Created project using create-react-app, react-router (the new v6!), and react-dial-knob (as to not reinvent the wheel)",
+        "-Used custom animations and sleek design throughout the project",
+        "-Made extensive use of local storage for a sustained frontend experience"
+      ],
+      "usage": [
+        "-Hamburger menu on main page for about section",
+        "-Card lock token on top right during desktop / top middle on smaller screens to toggle display of delete buttons on cards",
+        "-Clear Storage button on main page to clear Local Storage from browser, will prompt with warning",
+        "-New buttons to create new cards (pedalboards/pedals/knobs/switches)",
+        "-Edit on card to bring up name change input / submit to submit name change of card",
+        "-Switch icon clickable to toggle 3 different positions",
+        "-Knob can be clicked on desired spot and/or clicked and dragged to achieve desired position"
+      ]
+    }
+  },
   "weatherApp": {
     "title": "Weather App",
     "github": "https://github.com/TJDRZ/weather-app",
@@ -139,6 +162,26 @@
         "~~~~",
         "Rest of UI components (Header, School, Work) up for use/deletion if used as a template for things other than CV-Application",
         "save.js created to hide all buttons and the h1 on page and window.print() to allow pdf saving of CV to computer"
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "github": "https://github.com/TJDRZ/portfolio",
+    "live": "https://tjdrz.com",
+    "details": {
+      "title": "Portfolio",
+      "tools": "HTML, CSS, JS, ReactJS, React Router",
+      "description": [
+        "-This website you are currently viewing",
+        "-Created project using create-react-app and react-router-dom, later upgraded to react-router-dom v6",
+        "-High focus on reuseable components",
+        "-Heavy use of React hooks, including useLocation from React Router"
+      ],
+      "usage": [
+        "-Nav links above to toggle between home and projects pages",
+        "-Social media and email contact links on main page",
+        "-Each project card displays links to repo, gh-pages live environment, and details about the project"
       ]
     }
   }

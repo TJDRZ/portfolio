@@ -2,12 +2,14 @@ import "../styles/Projects.css";
 import Nav from "./Nav";
 import Project from "./Project";
 import projectsJSON from "../projects.json";
+import toneToken from "../assets/tone-token.png";
 import weatherApp from "../assets/weather-app.png";
 import memoryCard from "../assets/memory-card-game.png";
 import htmlForms from "../assets/html-forms.png";
 import shoppingCart from "../assets/shopping-cart.png";
 import todoList from "../assets/todo-list.png";
 import cvApplication from "../assets/cv-application.png";
+import portfolio from "../assets/portfolio.png";
 
 function Projects() {
   return (
@@ -18,6 +20,13 @@ function Projects() {
         <p>(Github and Live Preview links will open in a new window)</p>
       </header>
       <section className="project-container">
+        <Project
+          title={projectsJSON.toneToken.title}
+          img={toneToken}
+          github={projectsJSON.toneToken.github}
+          live={projectsJSON.toneToken.live}
+          details={projectsJSON.toneToken.details}
+        />
         <Project
           title={projectsJSON.weatherApp.title}
           img={weatherApp}
@@ -59,6 +68,13 @@ function Projects() {
           github={projectsJSON.cvApplication.github}
           live={projectsJSON.cvApplication.live}
           details={projectsJSON.cvApplication.details}
+        />
+        <Project
+          title={projectsJSON.portfolio.title}
+          img={portfolio}
+          github={projectsJSON.portfolio.github}
+          live={projectsJSON.portfolio.live}
+          details={projectsJSON.portfolio.details}
         />
       </section>
     </main>
