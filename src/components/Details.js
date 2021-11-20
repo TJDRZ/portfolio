@@ -26,7 +26,7 @@ function Details() {
       </header>
       <section className="details-container">
         <div className="details-img-container">
-          <img className="details-img" src={image} alt="hi" />
+          <img className="details-img" src={image} alt={title} />
         </div>
         <article className="description">
           <h2 className="details-h2">Main Objectives:</h2>

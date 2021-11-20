@@ -13,7 +13,7 @@ function Project(props) {
         <h2>{title}</h2>
       </header>
       <div className="screenshot-container">
-        <img className="screenshot" src={img} alt="" />
+        <img className="screenshot" src={img} alt={title} />
       </div>
       <nav>
         <ul className="link-list">
