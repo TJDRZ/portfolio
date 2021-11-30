@@ -14,10 +14,18 @@ function Home() {
         </p>
       </header>
       <div className="social">
-        <a href="https://github.com/TJDRZ">
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://github.com/TJDRZ"
+        >
           <img className="social-img" src={github} alt="Github"></img>
         </a>
-        <a href="https://www.linkedin.com/in/thomas-drzewiecki-9839ab21b/">
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://www.linkedin.com/in/thomas-drzewiecki-9839ab21b/"
+        >
           <img className="social-img" src={linkedIn} alt="LinkedIn"></img>
         </a>
       </div>
