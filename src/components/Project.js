@@ -5,7 +5,7 @@ import liveLogo from "../assets/play.svg";
 import detailsLogo from "../assets/block-menu.svg";
 
 function Project(props) {
-  const { title, img, github, live, details } = props;
+  const { title, img, github, live, details, detailsImg } = props;
 
   return (
     <article className="Project">
@@ -47,7 +47,7 @@ function Project(props) {
             <Link
               className="project-link"
               to="/details"
-              state={{ details: details, image: img }}
+              state={{ details: details, image: detailsImg }}
             >
               <img className="logo-link" src={detailsLogo} alt="Details"></img>
               Details
