@@ -25,7 +25,7 @@ function Projects() {
       <Nav />
       <header>
         <h1>Projects</h1>
-        <p>(Github and Live Preview links will open in a new window)</p>
+        <p>(Github and Live Preview links will open in a new tab)</p>
       </header>
       <section className="project-container">
         <Project
