@@ -6,19 +6,15 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  border: outset #7393b3 5px;
+  background-color: #333;
+  border: outset #6495ed 5px;
   border-radius: 0.4rem;
-  box-shadow: 4px 2px 8px 1px rgba(200, 200, 200, 0.75);
-}
-
-.Project:hover {
-  border: inset #6495ed 5px;
-  box-shadow: none;
+  box-shadow: 0 2px 8px 1px rgba(200, 200, 200, 0.75);
 }
 
 .screenshot {
   width: 100%;
-  border: outset #000 1px;
+  border: outset #7393b3 2px;
 }
 
 .link-list {
@@ -34,6 +30,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  font-size: 1rem;
 }
 
 .logo-link {

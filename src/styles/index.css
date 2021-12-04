@@ -13,3 +13,15 @@ body,
 main {
   padding: 5vw;
 }
+
+@media (max-width: 390px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+  :root {
+    font-size: 12px;
+  }
+}
