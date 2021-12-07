@@ -5,13 +5,11 @@ function Nav() {
   const location = useLocation();
 
   let homeStyle = {
-    fontWeight: "bold",
     backgroundColor: "rgba(204, 204, 204, 0.5)",
   };
 
   let projectStyle = {
-    fontWeight: "500",
-    backgroundColor: "rgba(204, 204, 204, 1)",
+    backgroundColor: "rgba(204, 204, 204, 0.5)",
   };
 
   return (

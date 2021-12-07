@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 5vw;
-  background-color: #333;
+  background-image: url(../assets/footer_lodyas.png);
 }
 
 .details-header {
@@ -16,11 +16,11 @@
 }
 
 .details-link {
-  color: #6495ed;
+  color: #0ff;
 }
 
 .details-link:hover {
-  background-color: rgba(204, 204, 204, 1);
+  background-color: rgba(204, 204, 204, 0.5);
 }
 
 .details-h1 {

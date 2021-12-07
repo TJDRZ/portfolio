@@ -3,8 +3,11 @@
   gap: 1rem;
 }
 
-a {
-  margin: 1rem;
-  color: inherit;
-  font-size: 1.5rem;
+.home-nav {
+  color: #fff;
+  text-shadow: none;
+}
+
+.project-nav {
+  color: #0ff;
 }
