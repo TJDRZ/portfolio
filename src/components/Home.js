@@ -8,9 +8,14 @@ function Home() {
     <main className="Home">
       <Nav />
       <header className="home-header">
-        <h1 className="home-h1 blue-shadow">Thomas Drzewiecki</h1>
-        <p className="home-p blue-shadow">
-          Front-End Web Developer from Baltimore, MD.
+        <h1 className="home-h1">
+          Th<span className="flicker delay1">o</span>mas Drzewi
+          <span className="flicker delay2">e</span>cki
+        </h1>
+        <p className="home-p">
+          Front<span className="flicker delay3">e</span>nd Web Developer from
+          Bal
+          <span className="flicker delay4">t</span>imore, MD.
         </p>
       </header>
       <div className="social">

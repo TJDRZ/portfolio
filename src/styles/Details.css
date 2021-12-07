@@ -42,6 +42,7 @@
 .details-img {
   width: 20rem;
   height: 20rem;
+  border: double #7393b3 3px;
   border-radius: 50%;
 }
 
