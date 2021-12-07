@@ -24,16 +24,16 @@
 .link-list {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   text-align: center;
 }
 
 .project-link {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 0.5rem;
+  height: 80%;
   font-size: 1rem;
 }
 
