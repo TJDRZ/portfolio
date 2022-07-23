@@ -9,7 +9,7 @@ function Home() {
       <Nav />
       <header className="home-header">
         <h1 className="home-h1">
-          Th<span className="flicker delay1">o</span>mas Drzewi
+          T<span className="flicker delay1">J</span> Drzewi
           <span className="flicker delay2">e</span>cki
         </h1>
         <p className="home-p">
