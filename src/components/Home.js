@@ -13,7 +13,7 @@ function Home() {
           <span className="flicker delay2">e</span>cki
         </h1>
         <p className="home-p">
-          Front<span className="flicker delay3">e</span>nd Web Developer from
+          <span className="flicker delay3">W</span>eb Developer from
           Bal
           <span className="flicker delay4">t</span>imore, MD.
         </p>
