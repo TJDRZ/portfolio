@@ -2,6 +2,8 @@ import "../styles/Projects.css";
 import Nav from "./Nav";
 import Project from "./Project";
 import projectsJSON from "../projects.json";
+import toneToken2 from "../assets/tone-token-2.png";
+import toneToken2Details from "../assets/tone-token-2-details.png";
 import toneToken from "../assets/tone-token.png";
 import toneTokenDetails from "../assets/tone-token-details.png";
 import weatherApp from "../assets/weather-app.png";
@@ -28,6 +30,14 @@ function Projects() {
         <p>(Github and Live Preview links will open in a new tab)</p>
       </header>
       <section className="project-container">
+      <Project
+          title={projectsJSON.toneToken2.title}
+          img={toneToken2}
+          github={projectsJSON.toneToken2.github}
+          live={projectsJSON.toneToken2.live}
+          details={projectsJSON.toneToken2.details}
+          detailsImg={toneToken2Details}
+        />
         <Project
           title={projectsJSON.toneToken.title}
           img={toneToken}
