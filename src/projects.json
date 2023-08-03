@@ -1,26 +1,21 @@
 {
-  "toneToken2": {
-    "title": "Tone Token 2",
-    "github": "https://github.com/TJDRZ/tone-token-2-client",
-    "live": "https://tjdrz.github.io/tone-token-2-client/#/",
+  "hellhouse": {
+    "title": "Hellhouse",
+    "github": "https://github.com/TJDRZ/hellhouse",
+    "live": "https://tjdrz.github.io/hellhouse/",
     "details": {
-      "title": "Tone Token 2",
-      "tools": "HTML, CSS, JS, ReactJS, React Router, React Dial Knob, NodeJS, ExpressJS, PostgreSQL, JWT",
+      "title": "Hellhouse",
+      "tools": "HTML, CSS, TS, ESLint, Webpack, Jest",
       "description": [
-        "-SPA served by a strong backend with detailed API",
-        "-PostgreSQL for a robust database",
-        "-JWT for secure authentication"
+        "-Turn based escape the killer game vs AI opponent",
+        "-Typescript Project",
+        "-TDD"
       ],
       "usage": [
-        "-Login / Register screen with localStorage & psql JWT memorization",
-        "-Hamburger menu on main page for about section",
-        "-Card lock token to toggle display of delete buttons on cards",
-        "-New buttons to create new cards (pedalboards/pedals/knobs/switches)",
-        "-Make Active / Open Pedal buttons to change parent list / child list sections",
-        "-Edit on card to bring up name change input / submit to submit name change of card",
-        "-Arrow buttons to change card index in array of siblings",
-        "-Switch icon clickable to toggle 3 different positions",
-        "-Knob can be clicked on desired spot and/or clicked and dragged to achieve desired position"
+        "-Top view, turn based game",
+        "-Killer starts at the top, player starts on the bottom",
+        "-Characters can move around into any adjacent room. The player can choose to stand still",
+        "-Repeat until player moves into the escape room"
       ]
     }
   },
