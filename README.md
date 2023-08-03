@@ -6,6 +6,7 @@ Created using create-react-app and react-router-dom
 
 Projects displayed:
 
+- hellhouse: top view, turn based game
 - tone-token: musical equipment settings saver made in React
 - weather-app: an API usage project with Webpack config
 - memory-card-game: a game using React and reusable components
