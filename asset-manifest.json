@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.ed79878e.chunk.css",
-    "main.js": "/static/js/main.06e0bce1.chunk.js",
-    "main.js.map": "/static/js/main.06e0bce1.chunk.js.map",
+    "main.js": "/static/js/main.acdfe493.chunk.js",
+    "main.js.map": "/static/js/main.acdfe493.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
-    "static/js/2.c4ee238f.chunk.js": "/static/js/2.c4ee238f.chunk.js",
-    "static/js/2.c4ee238f.chunk.js.map": "/static/js/2.c4ee238f.chunk.js.map",
+    "static/js/2.675f57ae.chunk.js": "/static/js/2.675f57ae.chunk.js",
+    "static/js/2.675f57ae.chunk.js.map": "/static/js/2.675f57ae.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.ed79878e.chunk.css.map": "/static/css/main.ed79878e.chunk.css.map",
-    "static/js/2.c4ee238f.chunk.js.LICENSE.txt": "/static/js/2.c4ee238f.chunk.js.LICENSE.txt",
+    "static/js/2.675f57ae.chunk.js.LICENSE.txt": "/static/js/2.675f57ae.chunk.js.LICENSE.txt",
     "static/media/block-menu.a03c57ac.svg": "/static/media/block-menu.a03c57ac.svg",
     "static/media/cv-application-details.c3ed9723.png": "/static/media/cv-application-details.c3ed9723.png",
     "static/media/cv-application.e6ea4d30.png": "/static/media/cv-application.e6ea4d30.png",
@@ -17,27 +17,15 @@
     "static/media/github.83780314.svg": "/static/media/github.83780314.svg",
     "static/media/hellhouse-details.7751feea.png": "/static/media/hellhouse-details.7751feea.png",
     "static/media/hellhouse.9c143704.png": "/static/media/hellhouse.9c143704.png",
-    "static/media/html-forms-details.740d9bd4.png": "/static/media/html-forms-details.740d9bd4.png",
-    "static/media/html-forms.1d57a295.png": "/static/media/html-forms.1d57a295.png",
     "static/media/linkedin.cfe4cd5b.svg": "/static/media/linkedin.cfe4cd5b.svg",
-    "static/media/memory-card-game-details.00cf69c9.png": "/static/media/memory-card-game-details.00cf69c9.png",
-    "static/media/memory-card-game.17db6ee4.png": "/static/media/memory-card-game.17db6ee4.png",
     "static/media/play.f8e526cb.svg": "/static/media/play.f8e526cb.svg",
-    "static/media/portfolio-details.3bae3e02.png": "/static/media/portfolio-details.3bae3e02.png",
-    "static/media/portfolio.0cfe46d8.png": "/static/media/portfolio.0cfe46d8.png",
-    "static/media/shopping-cart-details.3be38ded.png": "/static/media/shopping-cart-details.3be38ded.png",
-    "static/media/shopping-cart.24289b1c.png": "/static/media/shopping-cart.24289b1c.png",
-    "static/media/todo-list-details.d6fa2e08.png": "/static/media/todo-list-details.d6fa2e08.png",
-    "static/media/todo-list.b34078a9.png": "/static/media/todo-list.b34078a9.png",
     "static/media/tone-token-details.12c1730d.png": "/static/media/tone-token-details.12c1730d.png",
-    "static/media/tone-token.50be6fe2.png": "/static/media/tone-token.50be6fe2.png",
-    "static/media/weather-app-details.4d2c66be.png": "/static/media/weather-app-details.4d2c66be.png",
-    "static/media/weather-app.3e08e67c.png": "/static/media/weather-app.3e08e67c.png"
+    "static/media/tone-token.50be6fe2.png": "/static/media/tone-token.50be6fe2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f027f2bf.js",
-    "static/js/2.c4ee238f.chunk.js",
+    "static/js/2.675f57ae.chunk.js",
     "static/css/main.ed79878e.chunk.css",
-    "static/js/main.06e0bce1.chunk.js"
+    "static/js/main.acdfe493.chunk.js"
   ]
 }
